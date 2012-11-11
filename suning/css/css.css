@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+/*************************************************
+* 文件名称：css.css                                    
+* 编写人：徐山
+* 制作时间：2012.11.3
+* 联系方式：QQ：514277125  Email:kingundertree@163.com
+*个人网站：http://xiazhi.1kapp.com/web/navi/navi.html
+*************************************************/
+body, h1, h2, h3, ul, li {padding:0; margin:0;}
+ul, li {list-style:none; }
+body {font-size:12px; }
+p { margin:0.33em 0;}
+h2 {font-size:14px; font-weight:bold;}
+img {border:0;}
+a {text-decoration:none; color:#000; cursor:pointer; outline:none}
+a:hover {text-decoration:underline; color:#F00; }
+.cf {clear:both; height:1px; overflow:hidden;}
+.cf:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.red{ color:#F00;}
+.blue{ color:#2778C9;}
+.white{ color:#FFF;}
+.bold{font-weight:bold;}
+.graytext { color:#999; }
+.gray{ color:#E0E0E0;}
+.or{ color:#F08200;}
+.left{float:left;}
+.right{float:right;}
+body{ min-width:1200px;}
+.wrap{ margin:auto auto; width:1190px; min-width:1190px;}
+*html .left{ margin-right:-3px;}
+.height0{ height:0; overflow:hidden;}
+body{ background:#FFFFFF;}
+.redchildlogo, .down, .websitetit .b1,.searchleft,.searchbtn,.category b.categorydown,.category,.buyover,.cart b,.close,.main10conone b,.main10con2one b{ background:url(../img/comBg1023.png);}
+.slide2,.slide3,.slide4{ background:url(../img/20121103A1_2afvzcvcaflinll.jpg);}
+.shopshowprice .gotuan,.buysafe,.f1more,.f2more,.f3more,.f4more,.f5more,.logoconner,.dailybtn a,.bestbook,.bestbookbtn a,.ranknum{ background:url(../img/sprite.png);}
+.hotelbtn a,.rechargebtn a,.jfbtn a,.lotterybtn .btnsure{ background:url(../img/btn.png);}
+.lotteryleft b{ background:url(../img/caipiao.png);}
+.mysn,.service, .website,.cart,.phoneanddigital,.pdline3tit,.main1slide,#tab2,.f1,.f2,.f3,.f4,.f5{ position:relative;}
+.mysnmore, .servicemore, .websitemore, .whitebc,.settleall,.pdmore,.whitebcleft,.close,.numarea,.hotbuy,.f1moredetail,.f2moredetail,.f3moredetail,.f4moredetail,.f5moredetail{ position:absolute;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

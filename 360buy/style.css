@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+/*************************************************
+* 文件名称：style.css                                    
+* 编写人：徐山
+* 制作时间：2012.10.5
+* 联系方式：QQ：514277125  Email:kingundertree@163.com
+*个人网站：http://xiazhi.1kapp.com/web/navi/navi.html
+*************************************************/
+body, h1, h2, h3, ul, li {padding:0; margin:0;}
+ul, li {list-style:none; }
+body {font-size:12px; }
+p { margin:0.33em 0;}
+h2 {font-size:14px; font-weight:bold;}
+img {border:0;}
+a {text-decoration:none; color:#000; cursor:pointer; outline:none}
+a:hover {text-decoration:underline; color:#F00; }
+.cf {clear:both; height:1px; overflow:hidden;}
+.red{ color:#F00;}
+.blue{ color:#2778C9;}
+.white{ color:#FFF;}
+.bold{font-weight:bold;}
+.graytext { color:#999; }
+.title1{ color:#FFF; font-size:15px; font-weight:bold; }
+.title2{ font-size:14px; font-weight:bold; }
+.bccolor{ background:#F9F9F9;}
+.gray{ color:#E0E0E0;}
+
+.top{ min-width:1210px;}
+.left{float:left;}
+.right{float:right;}
+.wrap{ width:1210px; min-width:1210px; margin:auto auto;}
+.topconner{ -moz-border-top-right-radius:6px; -moz-border-top-left-radius:6px; -webkit-border-top-right-radius:6px; -webkit-border-top-left-radius:6px; }
+.lineheight30{ line-height:30px; }
+.topcontentaright .specialitem .downbtn, .fav span.favlogo, .topcontentaright .enterpriseser .downbtn,.topcontentaright .customerser .downbtn, .specialitemmore .specialtitle .upbtn,.searchbtn,.myjingdong b,.myshopcartup,.myshopcartdown,.nav .navlist li.cur,.nav .navlist li{ background:url(img/allphonelogo.png);}
+.specialitem, .enterpriseser, .customerser, .logoeara, .myjingdong, .shopcart, .nav, .first, .service li,.goodslineone,.crazyallone, .crazygoods{ position:relative;}
+.specialitemmore, .enterprisesermore, .customersermore, .logoactive,.myjingdongdetail, .mydetail, .whiteline,.shopcartdetail, .navad, .menudetail, .hdfkmore, .man39more, .shsmmore,.crazygoodsimg b,.crazyover, .crazyon{ position:absolute;}
+.headerlogo,.headerlogo1,.shopcartarea,.shopcartarea1,.settlementbtn,.besure .button,.lotterysubmit .lotterybtn,.ticketsumbit .ticketbtn,.rankline .num,.ques,.orderbtn,.guidelinetit span{ background:url(img/20120112B.png);}
+.promotion .right{ background:url(img/20111221C.png);}
+.service b, .crazygoods .crazygoodstit .crazybc, .daytuanbtn, .daytuanbtn a, .daytuanbtn a,.digitalother1 a,.electricalother1 a, .lifeother1 a,.guideline1{ background:url(img/20120814A.png);}
+.lotteryleft, .gooddown, .crazyover, .crazyon{ background:url(img/20111221D.png);}
+.gamesumbit .gamebtn{ background:url(img/btn2012062501.png);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

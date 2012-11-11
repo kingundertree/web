@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+/*************************************************
+* 文件名称：style.css                                    
+* 编写人：徐山
+* 制作时间：2012.10.23
+* 联系方式：QQ：514277125  Email:kingundertree@163.com
+*个人网站：http://xiazhi.1kapp.com/web/navi/navi.html
+*************************************************/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{ margin:0; padding:0; border:0; font-size:100%; font:inherit; vertical-align:baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{ display:block; }
+body{ line-height:1; }
+ol, ul{ list-style:none; }
+blockquote, q{ quotes:none; }
+blockquote:before, blockquote:after, q:before, q:after{ content:''; content:none; }
+table{ border-collapse:collapse; border-spacing:0; }
+body, p, ul, li, h1, h2, h3, h4, dl, dt, dd, table, td, th{ margin:0; padding:0; }
+table, td, th{ border-collapse:collapse; }
+ul, li{ list-style:none; }
+h1, h2, h3, h4{ font-size:100%; }
+img, /*input,*/ textarea{ vertical-align:middle; border:0; }
+a{ text-decoration:none; color:#a0a0a0; outline:none; }
+a:hover{ text-decoration:none; color:#1cb103; }
+a img{ border:none; }
+html, body{ font-size:12px; }
+.fixclear{ clear:both;}
+
+body{ min-width:960px; background:url(img/bg2.2.png) no-repeat top center;}
+#header{ height:66px; margin:0 auto; padding-top:15px;}
+.wrap{ position:relative; box-sizing:content-box; width:1100px; margin:auto;}
+.logo span{ display:block; float:left; height:47px; width:182px; background:url(img/se6all4.png) no-repeat}
+.nav{ position:absolute; float:right; padding-top:18px; padding-right:80px; right:0; z-index:1000; height:30px;}
+.nav li{ float:left; margin:0 16px; font-size:16px; font-family:"微软雅黑";}
+.nav li.1{ height:28px;}
+.nav li.nav_last{ position:absolute;}
+.nav ul li dl{ position:relative; top:20px; background-color:#FFF; width:80px; height:75px; margin-left:-18px; vertical-align:middle; text-align:center; visibility:hidden;}
+.nav ul li dl li{ display:block; width:80px; clear:both; margin:5px auto; line-height:24px; z-index:1000; margin:auto; text-align:center; color:#000;}
+.nav .li-cur{ color:#49C135;}
+.nav_line{ position:absolute; left:0; bottom:0; width:64px; height:2px; background:#34C61C; z-index:-1;}
+.nav li:hover,.nav li dl li{ color:#49C135;}
+.nav ul li:hover dl{ visibility:visible;}
+
+#content{ position:relative;}
+.content_left{ position:absolute; top:28px; left:5px;}
+.content_left{ float:left;}
+.content_right{ float:right;}
+.side_a,side_b{width:560px; height:360px;}
+.side_b{ visibility:hidden;}
+.side_c{ width:400px; height:90px; margin:110px 80px auto auto}
+.side_c span{ display:block; width:370px; height:95px; background:url(img/se6all4.png); background-position:0 -50px; z-index:10010;}
+.side_d a{ display:block; width:220px; height:75px; background:url(img/se6all4.png); background-position:0 -140px; margin-top:50px;}
+.side_d a span{ font-size:13px; color:#A9F560; position:relative; top:45px; left:35px;}
+
+#show{ position:relative; font-family:"微软雅黑";}
+.title{ margin-top:520px;}
+.title .title1{ font-size:35px;}
+.title .title2{ font-size:20px; margin-left:8px;}
+.underline{ display:block; visibility:visible; height:2px; background-color:#CCC; margin-top:5px; z-index:100002;}
+.showcontent{ margin-top:45px;}
+.showcontent li{ float:left; width:550px; height:120px;}
+.showcontent li .showlogo1,.showcontent li .showlogo2,.showcontent li .showlogo3,.showcontent li .showlogo4{ width:60px; height:50px; background:url(img/se6all4.png); float:left;}
+.showcontent li .showlogo1{ background-position:0 -227px;}
+.showcontent li .showlogo2{ background-position:-60px -227px;}
+.showcontent li .showlogo3{ background-position:-120px -227px;}
+.showcontent li .showlogo4{ background-position:-180px -227px;}
+.showcontent li a{ display:block; width:460px;}
+.showcontent li a:hover{ color:#A0A0A0;}
+.showcontent li a.a1{ display:block; font-size:18px; margin-top:5px;}
+.showcontent li a.a2{ display:block; font-size:14px; margin-top:10px; line-height:20px;}
+.showdetail{ display:block; float:left;}
+
+.bottom{ height:70px; background:#F4F6F7;  text-align:center; padding-top:60px;}
+.bottom a{ margin-top:60px;}
+

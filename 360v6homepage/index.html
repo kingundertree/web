@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>360超速浏览器（se brower 6.0）</title>
+<link href="style.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/page_context.js"></script>
+<script type="text/javascript" src="js/172.js" ></script>
+<script type="text/javascript" src="js/TweenLite.js"></script>
+<!--[if lte IE 6]>
+<script type="text/javascript" src="js/belatedPNG.js"></script>
+<script type="text/javascript">
+  DD_belatedPNG.fix('.png_bg,.png_bg a:hover,img,li');
+</script>
+<![endif]-->
+</head>
+
+<body>
+	<div id="header" class="wrap">
+    	<a class="logo"><span></span></a>
+        <div class="nav">
+        	<ul>
+                <li class="1" class="nav_cur"><a href="#" target="_blank">首页</a></li>
+                <li class="1"><a href="#" target="_blank">扩展</a></li>
+                <li class="1"><a href="#" target="_blank">帮助</a></li>
+                <li class="1" class="nav_last"><a href="#" target="_blank">论坛</a>
+                    <dl>
+                        <li class="2">微博</li>
+                        </br>
+                        <li class="2">人人网</li>
+                        </br>
+                        <li class="2">论坛</li>
+                   	</dl>
+                </li>
+                <div class="nav_line" style=""></div>
+                <script type="text/javascript">
+					jQuery(function(){
+						$=jQuery;
+						var $underline=$('.nav_line');
+						var $ul=$('.nav>ul');
+						$('.nav>ul>li').mouseenter(function(e){
+							
+							var $cur=$(e.currentTarget);
+						
+							$underline.stop().animate({'left':$cur.offset().left-$ul.offset().left+($cur.width()-64)/2},400);
+						
+						}).mouseleave(function(e){
+				
+						});
+						$('.nav').mouseleave(function(){
+							var $tar=$('.nav li.nav_cur');
+							$underline.animate({'left':$tar.offset().left-$ul.offset().left+($tar.width()-64)/2});
+						});
+					});
+				</script>
+            </ul>            
+        </div>
+    </div>
+    
+    <div id="content" class="wrap">
+    	<div class="content_left">
+        	<div class="side_a"><img width="560px" height="360px" src="img/browser.jpg" /></div>
+            <div class="side_b"><img width="560px" height="360px" src="img/pic2.4.jpg" /></div>
+        </div>
+        <div class="content_right">
+        	<div class="side_c"><span></span></div>
+            <div class="side_d"><a href="#"><span>更新时间：10.18 | 35.8M</span></a></div>
+        </div>
+    </div>
+    
+    <div id="show" class="wrap">
+    	<div class="title">
+        	<span class="title1">加速引擎</span><span class="title2">四驱动力，超级速度</span>
+            <a class="underline"></a>
+        </div>
+        <div class="showcontent">
+        	<li class="show1">
+            	<div class="showlogo1"></div>
+                <div class="showdetail">
+                    <a class="a1">页面渲染引擎</a>         
+                    <a class="a2">双核智能切换，不管什么网站均可应对自如，享受最快最安全的浏览体验。</a>
+                </div>
+            </li>
+            <li class="show2">
+            	<div class="showlogo2"></div>
+                <div class="showdetail">
+                    <a class="a1">交互体验引擎</a>         
+                    <a class="a2">Smart UI独立引擎让浏览器界面变得更加聪明，能够快速响应你的所有需求。</a>
+                </div>
+            </li>
+            <li class="show3">
+            	<div class="showlogo3"></div>
+                <div class="showdetail">
+                    <a class="a1">高速下载引擎</a>         
+                    <a class="a2">即使不安装任何下载工具，你也能在浏览器里享受飞速、不中断的下载体验。</a>
+                </div>
+            </li>
+            <li class="show4">
+            	<div class="showlogo4"></div>
+                <div class="showdetail">
+                    <a class="a1">网络加速引擎</a>         
+                    <a class="a2">域名智能解析配合http预连接，让你事事为先，快速在线，畅享网络新速度。</a>
+                </div>
+            </li>
+        </div>
+    </div>
+    
+    <div class="fixclear"></div>
+    <div class="bottom">
+    	<a>Copyright?2005-2012 360.CN All Rights Reserved 360安全中心</a>
+    </div>
+
+</body>
+</html>

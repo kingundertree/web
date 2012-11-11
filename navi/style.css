@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+/*************************************************
+* 文件名称：style.css                                    
+* 编写人：徐山
+* 制作时间：2012.11.2
+* 联系方式：QQ：514277125  Email:kingundertree@163.com
+*个人网站：http://xiazhi.1kapp.com/web/navi/navi.html
+*************************************************/
+
+img{ border:none;}
+.left{ float:left; }
+.right{ float:right; }
+.main{ width:100%; height:1000px; background:url(img/main-bg.png); font-family:"微软雅黑";}
+.navigation{ width:1026px; margin:auto; }
+.website{ display:inline; position:relative; background:#FFF; width:330px; height:220px; margin:50px 6px auto 6px; text-align:center; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; }
+.logo{ text-align:center; margin:auto; margin-top:60px; }
+.weblink{ display:block; width:100%;}
+.sitelogo{ width:200px; height:57px; margin:auto;}
+.sitedetail{ display:none; border-top:2px solid #00F; position:absolute; bottom:0px; left:0px; background:#FFC; width:330px; height:70px; opacity:0.7; -webkit-transition:all 0.5s ease-in; -moz-transition:all 0.5s ease-in; transition:all 0.5s ease-in; }
+.website:hover{ border:2px solid #FFC; width:326px; height:216px; }
+.website:hover .sitedetail{ display:block; width:326px; height:70px;}
+.website:hover .logo{ margin-top:58px;}
+
+.sitedetailleft{ display:inline; width:200px; height:60px; border-right:1px solid #CCC; margin:5px auto 5px 8px;}
+.sitedetailleft b, .sitedetailleft span{ display:block; text-align:left; overflow:hidden; }
+.sitedetailleft b{ color:red; margin-top:2px; }
+.sitedetailleft span{ line-height:20px; font-size:13px; color:#00F; overflow:hidden; }
+.sitedetailright{ text-align:center; margin:auto; padding:21px 0 21px 10px; }
+.sitedetailright a{ display:block; width:100px; height:28px; background:#00F; color:#FFF; line-height:28px; text-align:center; text-decoration:none;}
+.sitedetailright a:hover{ color:#FF0; text-decoration:none; }
+
+.setline{ height:0px; overflow:hidden;}
+.foot{ position:fixed; left:0; bottom:0; width:100%; height:100px; text-align:center; background:rgba(0,0,0,0.5); filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);}
+.foot span{ vertical-align:middle; font-weight:bold; font-size:20px; line-height:100px; color:#FFF; }
+
+
+
+
+
